@@ -97,10 +97,10 @@
 
 
 
-	/* #define CONFIG_CONCURRENT_MODE */
+	#define CONFIG_CONCURRENT_MODE 1
 	#ifdef CONFIG_CONCURRENT_MODE
 		#define CONFIG_RUNTIME_PORT_SWITCH
-
+        #define CONFIG_SCAN_BACKOP
 		#define CONFIG_TSF_RESET_OFFLOAD			/* For 2 PORT TSF SYNC. */
 	#endif
 
