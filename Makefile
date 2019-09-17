@@ -56,7 +56,7 @@ CONFIG_GSPI_HCI = n
 ########################## Features ###########################
 CONFIG_NET_NS = n
 CONFIG_MP_INCLUDED = y
-CONFIG_POWER_SAVING = n
+CONFIG_POWER_SAVING = y
 CONFIG_USB_AUTOSUSPEND = n
 CONFIG_HW_PWRP_DETECTION = n
 CONFIG_WIFI_TEST = n
